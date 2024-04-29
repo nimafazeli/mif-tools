@@ -1,0 +1,26 @@
+** Setup the =R= Programming language environment                      :case:
+
+Here is how to set up a GitHub Codespace for R programming:
+
+To set up a GitHub Codespace for R programming, follow these steps:
+
+1. Create a new repository on GitHub or navigate to an existing repository where you want to use R. [1][2]
+
+2. Click on the "Code" button and select the "Codespaces" tab. Then click the "Create codespace on main" button (or the branch you want to use). This will create a new Codespace environment for your repository. [2]
+
+3. In the new Codespace environment, click on the "Add dev container configuration files" in the bottom left corner. Search for and select the "Data Science" container, which includes support for R, Python, and Julia. This will add the necessary configuration files to your repository. [3][4]
+
+4. Once the container is built, you can open the R terminal by clicking on the terminal icon in the left sidebar. From here, you can install any additional R packages you need for your project using the `install.packages()` function. [3][4]
+
+5. If you want to run Shiny apps in your Codespace, you'll need to install the `shiny` package and create an entry point file that runs the Shiny app. You can then forward the port that the Shiny app is running on to access it in your browser. [4]
+
+6. Remember to commit and push any changes you make to the dev container configuration files back to your repository, so the setup is preserved for future Codespace instances. [4]
+
+By following these steps, you can easily set up a GitHub Codespace environment optimized for R programming, with all the necessary dependencies and tools pre-installed. This allows you to start coding in R right away without having to set up a local development environment. [1][2][3][4][5]
+
+Citations:
+[1] https://github.com/coolbutuseless/codespacer
+[2] https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository
+[3] https://www.youtube.com/watch?v=YDfZ5raWbs4
+[4] https://github.com/jakubnowicki/r-codespaces
+[5] https://code.visualstudio.com/docs/remote/codespaces
